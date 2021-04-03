@@ -62,9 +62,15 @@ massSize.times do
   if enter == "1"
 
     massSize.times do
+      
+      if wrong_glagoli[stroka] == nil
+        abort
+      end
+
       stroka += 1
       puts wrong_glagoli[stroka]
       sleep 0.05
+      
     end
 
     abort
