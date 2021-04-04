@@ -1,12 +1,7 @@
-def say_hi(name)
-  puts "Привет, #{name}, как дела?"
+def sklonenie(number, il, ila, ilov)
+  
+  ostatok = number % 10
+  i
+
 end
 
-say_hi "Ибрагим"
-say_hi "Изенбальд"
-
-def nothing()
-  puts "Nothing!"
-end
-
-nothing
