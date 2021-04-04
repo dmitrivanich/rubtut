@@ -1,3 +1,12 @@
-time = Time.now
+def say_hi(name)
+  puts "Привет, #{name}, как дела?"
+end
 
-puts time
+say_hi "Ибрагим"
+say_hi "Изенбальд"
+
+def nothing()
+  puts "Nothing!"
+end
+
+nothing
