@@ -1,6 +1,6 @@
 #При нажатии Enter показывается строка из стихотворения!
 
-wrong_glagoli = [
+stih = [
   "Drink-drank-drunk ужасно много (пить)",
   "Наш соседский дядя Гога.",
   "Он forget-forgot-forgotten (забывать)",
@@ -53,7 +53,7 @@ puts "Нажимайте Enter, чтобы увидеть следующую с�
 Чтобы показать всё стихотворение, введите '1'."
 
 stroka = 0
-massSize = wrong_glagoli.size
+massSize = stih.size
 
 massSize.times do
   
@@ -63,12 +63,12 @@ massSize.times do
 
     massSize.times do
       
-      if wrong_glagoli[stroka] == nil
+      if stih[stroka] == nil
         abort
       end
 
       stroka += 1
-      puts wrong_glagoli[stroka]
+      puts stih[stroka]
       sleep 0.05
       
     end
@@ -77,7 +77,7 @@ massSize.times do
   end
 
   stroka += 1
-  print wrong_glagoli[stroka]
+  print stih[stroka]
 
 end
 
